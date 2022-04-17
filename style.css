@@ -1,0 +1,134 @@
+﻿
+/* tête de page*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+body {
+    margin: 0 auto;
+    font-family: 'PT Serif', serif;
+    background-color: rgb(255, 255, 255); 
+    background-image: url(foret.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+  }
+
+
+  h1{
+  text-align:center;
+  font-size: 40px;
+  font-family: 'Abril FatFace';
+  
+}
+
+/* lien href */
+
+a {
+  text-decoration: none;
+}
+
+li{
+  text-decoration: none;
+    margin-bottom: 0;
+    font-family: 'PT Serif', serif;
+    padding: 10px; 
+    display: inline-flex;
+    justify-content: center;
+    color: white;
+    
+    
+  }
+
+.slide {
+  scroll-behavior: smooth;
+  
+}
+
+
+.menu{
+   display: center;
+  }
+
+.scroll-down {
+  scroll-behavior: smooth;
+  
+}
+
+.navbar{
+    font-family: 'PT Serif', serif;
+
+}
+
+/* Bouton scroll */
+
+.landing-page{
+    padding: 120px 100px;
+    
+
+  }
+
+
+/* milieu de paage */
+
+
+.midle-page p {
+  text-align: center;
+}
+
+
+  .scroll-down {
+    text-decoration: none;
+    
+  }
+
+  /*  services */
+
+  .service-item {
+    display: flex;
+  }
+
+  .delivery-icon {
+    font-size: 20px;
+    color: aqua;
+  }
+
+  /* Texte de présentation */
+
+  .midle-page {
+    padding: 150px ;
+    text-align: center;
+    
+  }
+
+.avantages {
+  padding: 175px;
+  text-align: center;
+}
+
+  
+  /* bas de page */
+
+.interesse {
+  padding: 350px;
+  text-align: center;
+}
+
+
+
+
+  /* pied de page */
+
+ footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px 100px;
+ }
+  
