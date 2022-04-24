@@ -20,7 +20,14 @@ body {
     
   }
 
+::-webkit-scrollbar{
+  background-color: black;
+}
 
+ ::-webkit-scrollbar-thumb{
+   background-color: aqua;
+   border-radius: 80vw;
+ } 
 
   
 
